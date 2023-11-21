@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #D6E2EF;
+    font-family: 'Outfit', sans-serif;
+}
+
+main{
+    background-color: white;
+    width: 300px;
+    padding: 1em;
+    border-radius: 15px;
+    margin: 100px auto 5px auto;
+
+}
+
+
+main > img{
+    width: 100%;
+    margin: 0;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+main > h3{
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+    color: #1F3251;
+
+}
+
+main > p{
+    font-size: 15px;
+    padding: 0 .5em;
+    text-align: center;
+    color: #7B879E;
+}
+
+.attribution > p{
+    font-size: 10px;
+    margin: 0;
+}
